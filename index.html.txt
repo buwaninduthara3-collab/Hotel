@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wewa Thaula Guest | Luxury Five-Star Hotel &amp; Nature Retreat</title>
+    <meta name="description" content="Wewa Thaula Guest is a premium five-star luxury hotel and nature retreat offering elegant rooms, fine dining, spa &amp; wellness and unforgettable hospitality.">
+    <meta property="og:title" content="Wewa Thaula Guest | Luxury Five-Star Hotel">
+    <meta property="og:description" content="Experience luxury. Embrace nature. Discover a peaceful escape where comfort, elegance and unforgettable hospitality come together.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="nav-brand">
+                <span class="brand-mark"><i class="fa-solid fa-gem"></i></span>
+                <span class="brand-text">
+                    <span class="brand-name">Wewa Thaula</span>
+                    <span class="brand-sub">Guest &middot; Luxury Retreat</span>
+                </span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rooms" class="nav-link">Rooms &amp; Suites</a></li>
+                <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-book-item"><a href="#booking" class="btn btn-gold btn-nav">Book Now</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-eyebrow reveal-hero">Wewa Thaula Guest &middot; Five-Star Luxury Retreat</span>
+            <h1 class="hero-title reveal-hero">Experience Luxury.<br><em>Embrace Nature.</em></h1>
+            <p class="hero-subtitle reveal-hero">Discover a peaceful escape where comfort, elegance, and unforgettable hospitality come together.</p>
+            <div class="hero-buttons reveal-hero">
+                <a href="#rooms" class="btn btn-gold">Explore Our Rooms</a>
+                <a href="#booking" class="btn btn-outline">Book Your Stay</a>
+            </div>
+        </div>
+        <a href="#about" class="hero-scroll" aria-label="Scroll down">
+            <span class="mouse"><span class="wheel"></span></span>
+        </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+        <div class="container about-grid">
+            <div class="about-media reveal">
+                <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80" alt="Elegant lobby of Wewa Thaula Guest luxury hotel">
+                <div class="about-badge">
+                    <span class="badge-number">5<i class="fa-solid fa-star"></i></span>
+                    <span class="badge-text">Luxury<br>Hospitality</span>
+                </div>
+            </div>
+            <div class="about-text reveal">
+                <span class="section-eyebrow">About Us</span>
+                <h2 class="section-title">Welcome to Wewa Thaula Guest</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+                <p>Nestled amid serene natural surroundings, Wewa Thaula Guest is a luxurious and peaceful hospitality destination crafted for travelers who seek refinement without sacrificing tranquility. Every detail — from our elegantly appointed suites to our warm, personalized service — is designed to create a sense of calm and belonging.</p>
+                <p>Whether you are here for a restorative getaway, a romantic escape, or a quiet working retreat, our dedicated team ensures each moment of your stay is effortless and memorable.</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-check"></i> Elegant rooms &amp; suites with premium amenities</li>
+                    <li><i class="fa-solid fa-check"></i> Fine dining crafted from fresh, local ingredients</li>
+                    <li><i class="fa-solid fa-check"></i> Spa, wellness &amp; nature experiences</li>
+                </ul>
+                <a href="#facilities" class="btn btn-dark">Discover More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ROOMS & SUITES ============ -->
+    <section class="section section-alt" id="rooms">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Accommodation</span>
+                <h2 class="section-title">Rooms &amp; Suites</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+                <p class="section-lead">Choose from thoughtfully designed spaces where comfort meets timeless elegance.</p>
+            </div>
+            <div class="rooms-grid">
+                <article class="room-card reveal">
+                    <div class="room-media">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Deluxe Room with elegant bedding and warm lighting">
+                        <span class="room-tag">Popular Choice</span>
+                    </div>
+                    <div class="room-body">
+                        <h3>Deluxe Room</h3>
+                        <p class="room-desc">A serene retreat with plush bedding, refined décor and garden views — perfect for a restful escape.</p>
+                        <ul class="room-amenities">
+                            <li><i class="fa-solid fa-bed"></i> King Bed</li>
+                            <li><i class="fa-solid fa-expand"></i> 32 m&sup2;</li>
+                            <li><i class="fa-solid fa-mug-hot"></i> Tea &amp; Coffee</li>
+                            <li><i class="fa-solid fa-wifi"></i> Free Wi-Fi</li>
+                        </ul>
+                        <div class="room-footer">
+                            <div class="room-price"><span class="currency">$</span>145<small> / night*</small></div>
+                            <div class="room-actions">
+                                <a href="#booking" class="btn btn-dark btn-sm">View Details</a>
+                                <a href="#booking" class="btn btn-gold btn-sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="room-card reveal">
+                    <div class="room-media">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Superior Room with spacious layout and modern design">
+                    </div>
+                    <div class="room-body">
+                        <h3>Superior Room</h3>
+                        <p class="room-desc">Extra space, a cozy seating area and panoramic views — ideal for longer, unhurried stays.</p>
+                        <ul class="room-amenities">
+                            <li><i class="fa-solid fa-bed"></i> King Bed</li>
+                            <li><i class="fa-solid fa-expand"></i> 42 m&sup2;</li>
+                            <li><i class="fa-solid fa-mountain-sun"></i> Scenic View</li>
+                            <li><i class="fa-solid fa-wifi"></i> Free Wi-Fi</li>
+                        </ul>
+                        <div class="room-footer">
+                            <div class="room-price"><span class="currency">$</span>195<small> / night*</small></div>
+                            <div class="room-actions">
+                                <a href="#booking" class="btn btn-dark btn-sm">View Details</a>
+                                <a href="#booking" class="btn btn-gold btn-sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="room-card reveal">
+                    <div class="room-media">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80" alt="Luxury Suite with spacious bed and elegant interior">
+                        <span class="room-tag tag-gold">Signature</span>
+                    </div>
+                    <div class="room-body">
+                        <h3>Luxury Suite</h3>
+                        <p class="room-desc">Our finest suite — a generous living space, private balcony and bespoke touches for the ultimate stay.</p>
+                        <ul class="room-amenities">
+                            <li><i class="fa-solid fa-bed"></i> King Bed</li>
+                            <li><i class="fa-solid fa-expand"></i> 64 m&sup2;</li>
+                            <li><i class="fa-solid fa-couch"></i> Living Area</li>
+                            <li><i class="fa-solid fa-bath"></i> Soaking Tub</li>
+                        </ul>
+                        <div class="room-footer">
+                            <div class="room-price"><span class="currency">$</span>320<small> / night*</small></div>
+                            <div class="room-actions">
+                                <a href="#booking" class="btn btn-dark btn-sm">View Details</a>
+                                <a href="#booking" class="btn btn-gold btn-sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="rooms-note reveal">* Sample prices for demonstration only — replace with your actual nightly rates.</p>
+        </div>
+    </section>
+
+    <!-- ============ FACILITIES ============ -->
+    <section class="section" id="facilities">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">What We Offer</span>
+                <h2 class="section-title">Luxury Facilities</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+                <p class="section-lead">World-class amenities designed to make every moment of your stay extraordinary.</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-water-ladder"></i></div>
+                    <h3>Swimming Pool</h3>
+                    <p>A crystal-clear infinity pool surrounded by sun decks and tranquil greenery.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>Fine Dining Restaurant</h3>
+                    <p>Exquisite dishes crafted by our chefs using fresh, seasonal local ingredients.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-spa"></i></div>
+                    <h3>Spa &amp; Wellness</h3>
+                    <p>Rejuvenating treatments, massages and wellness rituals in a calming sanctuary.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-wifi"></i></div>
+                    <h3>Free Wi-Fi</h3>
+                    <p>High-speed wireless internet throughout the property, always complimentary.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-bell-concierge"></i></div>
+                    <h3>24/7 Room Service</h3>
+                    <p>Attentive, around-the-clock service at the touch of a button, day or night.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-square-parking"></i></div>
+                    <h3>Private Parking</h3>
+                    <p>Secure, complimentary on-site parking for all our valued guests.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-tree"></i></div>
+                    <h3>Garden &amp; Relaxation Area</h3>
+                    <p>Lush landscaped gardens — the perfect setting for quiet reflection and leisure.</p>
+                </div>
+                <div class="facility-card reveal">
+                    <div class="facility-icon"><i class="fa-solid fa-plane-arrival"></i></div>
+                    <h3>Airport Transfers</h3>
+                    <p>Comfortable, stress-free private transfers arranged on request.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section experience">
+        <div class="experience-overlay"></div>
+        <div class="container experience-inner">
+            <div class="section-header light reveal">
+                <span class="section-eyebrow">The Wewa Thaula Experience</span>
+                <h2 class="section-title">Moments You'll Remember Forever</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card reveal">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Fine dining plated dish at Wewa Thaula restaurant">
+                    <div class="experience-card-body">
+                        <h3>Luxury Dining</h3>
+                        <p>Savor curated tasting menus and candlelit dinners beneath the stars.</p>
+                    </div>
+                </div>
+                <div class="experience-card reveal">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" alt="Peaceful forest nature trail for relaxation">
+                    <div class="experience-card-body">
+                        <h3>Nature Experiences</h3>
+                        <p>Guided walks, bird watching and sunrise views in unspoiled surroundings.</p>
+                    </div>
+                </div>
+                <div class="experience-card reveal">
+                    <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80" alt="Premium resort poolside hospitality experience">
+                    <div class="experience-card-body">
+                        <h3>Premium Hospitality</h3>
+                        <p>A dedicated team devoted to making your stay effortlessly perfect.</p>
+                    </div>
+                </div>
+                <div class="experience-card reveal">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&q=80" alt="Guest relaxing at a luxury resort">
+                    <div class="experience-card-body">
+                        <h3>Unforgettable Stays</h3>
+                        <p>Thoughtful surprises and personal touches that turn visits into memories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section section-alt" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Gallery</span>
+                <h2 class="section-title">A Glimpse of Paradise</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+                <p class="section-lead">Explore the spaces, views and moments that define Wewa Thaula Guest.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal" data-title="Infinity Pool">
+                    <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=700&q=80" alt="Luxury infinity swimming pool at the resort">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-title="Guest Suite">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=700&q=80" alt="Elegant guest suite interior">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-title="Fine Dining">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&q=80" alt="Fine dining restaurant interior and cuisine">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-title="Tranquil Gardens">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=700&q=80" alt="Serene forest garden landscape">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-title="Resort Landscape">
+                    <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=700&q=80" alt="Scenic resort landscape with pool and palm trees">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal" data-title="Luxury Bath">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=700&q=80" alt="Luxury bathroom with elegant bath">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Guest Reviews</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+            </div>
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="testimonial-quote">"From the moment we arrived, everything felt effortless. The suite was stunning, the gardens were so peaceful, and the staff anticipated our every need. Truly a five-star experience."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Guest portrait placeholder">
+                            <div>
+                                <h4>Sample Guest &mdash; A. Perera</h4>
+                                <span>Sample review &middot; Luxury Suite stay</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="testimonial-quote">"The spa treatments and fine dining were world-class. We came for a weekend and wished we had stayed a week. Wewa Thaula Guest is a hidden gem of tranquility."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Guest portrait placeholder">
+                            <div>
+                                <h4>Sample Guest &mdash; J. Silva</h4>
+                                <span>Sample review &middot; Deluxe Room stay</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                        <p class="testimonial-quote">"Impeccable service, breathtaking views and a warmth you rarely find. The airport transfer and 24/7 room service made our family holiday completely stress-free."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Guest portrait placeholder">
+                            <div>
+                                <h4>Sample Guest &mdash; M. Fernando</h4>
+                                <span>Sample review &middot; Superior Room stay</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots" id="testimonialDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section booking-section" id="booking">
+        <div class="booking-overlay"></div>
+        <div class="container booking-container">
+            <div class="booking-info reveal">
+                <span class="section-eyebrow">Reservations</span>
+                <h2 class="section-title">Book Your Stay</h2>
+                <div class="divider left"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+                <p>Complete the form and our reservations team will confirm availability and respond to your request shortly.</p>
+                <ul class="booking-perks">
+                    <li><i class="fa-solid fa-phone"></i> <!-- EDIT: replace with your reservations phone --> +00 000 000 0000</li>
+                    <li><i class="fa-solid fa-envelope"></i> <!-- EDIT: replace with your reservations email --> reservations@example.com</li>
+                    <li><i class="fa-solid fa-shield-halved"></i> Best rate guarantee &middot; flexible cancellation</li>
+                </ul>
+            </div>
+            <form class="booking-form reveal" id="bookingForm" novalidate>
+                <h3>Booking Request</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guestName">Guest Name <span>*</span></label>
+                        <input type="text" id="guestName" name="guestName" placeholder="Full name" required>
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="guestEmail">Email Address <span>*</span></label>
+                        <input type="email" id="guestEmail" name="guestEmail" placeholder="you@example.com" required>
+                        <small class="error-msg"></small>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guestPhone">Phone Number <span>*</span></label>
+                        <input type="tel" id="guestPhone" name="guestPhone" placeholder="+00 000 000 000" required>
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="numGuests">Number of Guests <span>*</span></label>
+                        <select id="numGuests" name="numGuests" required>
+                            <option value="">Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5+">5+ Guests</option>
+                        </select>
+                        <small class="error-msg"></small>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkIn">Check-in Date <span>*</span></label>
+                        <input type="date" id="checkIn" name="checkIn" required>
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkOut">Check-out Date <span>*</span></label>
+                        <input type="date" id="checkOut" name="checkOut" required>
+                        <small class="error-msg"></small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="roomType">Room Type <span>*</span></label>
+                    <select id="roomType" name="roomType" required>
+                        <option value="">Select a room</option>
+                        <option value="Deluxe Room">Deluxe Room</option>
+                        <option value="Superior Room">Superior Room</option>
+                        <option value="Luxury Suite">Luxury Suite</option>
+                    </select>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <label for="specialRequests">Special Requests</label>
+                    <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Anniversary setup, dietary needs, late check-in..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold btn-block">Submit Booking Request</button>
+                <p class="form-note"><i class="fa-solid fa-circle-info"></i> This is a demo form. A real booking requires connection to a backend or booking service (e.g. a reservations API or channel manager).</p>
+                <div class="form-success" id="bookingSuccess" role="alert">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                        <h4>Request Received!</h4>
+                        <p>Thank you! Your booking request has been recorded for this demo. Our team would contact you shortly once connected to a live booking system.</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="divider"><span></span><i class="fa-solid fa-gem"></i><span></span></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Address</h4>
+                            <!-- EDIT: replace with the hotel's real address -->
+                            <p>12 Lakeside Avenue,<br>[City], [Country]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <!-- EDIT: replace with the hotel's real phone number -->
+                            <p>+00 000 000 0000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <!-- EDIT: replace with the hotel's real email -->
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Name <span>*</span></label>
+                            <input type="text" id="contactName" placeholder="Your name" required>
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email <span>*</span></label>
+                            <input type="email" id="contactEmail" placeholder="you@example.com" required>
+                            <small class="error-msg"></small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" placeholder="How can we help?">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message <span>*</span></label>
+                        <textarea id="contactMessage" rows="4" placeholder="Your message..." required></textarea>
+                        <small class="error-msg"></small>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                    <p class="contact-success" id="contactSuccess"><i class="fa-solid fa-circle-check"></i> Thank you! Your message has been sent (demo).</p>
+                </form>
+            </div>
+            <div class="map-placeholder reveal">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <!-- EDIT: replace this placeholder with your Google Maps embed iframe -->
+                <p>Google Maps embed &mdash; paste your &lt;iframe&gt; embed code here to display the hotel location.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-brand-col">
+                <a href="#home" class="nav-brand footer-brand">
+                    <span class="brand-mark"><i class="fa-solid fa-gem"></i></span>
+                    <span class="brand-text">
+                        <span class="brand-name">Wewa Thaula</span>
+                        <span class="brand-sub">Guest &middot; Luxury Retreat</span>
+                    </span>
+                </a>
+                <p>A luxurious five-star retreat where elegant comfort meets the calm of nature — crafted for unforgettable stays.</p>
+                <div class="contact-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms &amp; Suites</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <!-- EDIT: replace with real contact details -->
+                    <li><i class="fa-solid fa-location-dot"></i> 12 Lakeside Avenue, [City], [Country]</li>
+                    <li><i class="fa-solid fa-phone"></i> +00 000 000 0000</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@example.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p class="newsletter-text">Subscribe for exclusive offers and seasonal experiences.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <p class="newsletter-msg" id="newsletterMsg"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Wewa Thaula Guest. All rights reserved. &middot; Sample website &mdash; details are editable placeholders.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
